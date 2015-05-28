@@ -33,6 +33,3 @@ To stop it use this command in new terminal window
 ```
 rm /tmp/run
 ```
-
-
-DAVS was tested on DigitalOcean and worked perfect.
