@@ -7,7 +7,7 @@ Script that shows traffic on TCP server. Written on C using libpcap to handle in
 
 How to use
 ----------
-### Backend
+#### Backend
 You need root permissions to run program on your server. Connect to your server via terminal, upload files from backend folder and compile `main.c`
 ```
 gcc main.c -o main -pthread -lpcap
@@ -17,7 +17,7 @@ Then execute program with any port
 ./main 8088
 ```
 
-### Frontend
+#### Frontend
 Open `frontend/js/diagram.js` and modify host and port
 ```
 var host = "127.0.0.1",
