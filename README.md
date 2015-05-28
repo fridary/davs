@@ -12,7 +12,7 @@ You need root permissions to run program on your server. Connect to your server 
 ```
 gcc main.c -o main -pthread -lpcap
 ```
-Then run program with any port you wish
+Then execute program with any port
 ```
 ./main 8088
 ```
