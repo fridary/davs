@@ -3,7 +3,7 @@ DDoS Attack Visualization System (DAVS)
 
 ![](https://raw.githubusercontent.com/fridary/davs/master/screen.png)
 
-Script that shows traffic on TCP server. Written on C using libpcap and JavaScript to visualize system. WebSockets are used to send data from server to browser.
+Script that shows traffic on TCP server. Written on C using libpcap to handle incoming packets and JavaScript to visualize system. WebSockets are used to send data from server to browser.
 
 How to use
 ----------
